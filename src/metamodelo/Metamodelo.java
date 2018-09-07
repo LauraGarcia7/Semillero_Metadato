@@ -31,6 +31,7 @@ public class Metamodelo {
         
         Generador generador = new Generador();
         generador.generar(aplicacion);
+        generador.generarDAO(aplicacion);
         
         generador.generarMain(aplicacion);
     }
